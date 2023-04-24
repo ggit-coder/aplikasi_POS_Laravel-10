@@ -45,11 +45,6 @@
       table = $('.table').DataTable({
         processing: true,
         autoWidth: false,
-        // 'paging'      : true,
-        // 'lengthChange': false,
-        // 'searching'   : false,
-        // 'ordering'    : true,
-        // 'info'        : true,
         ajax: {
             url: '{{ route('kategori.data') }}',
         },

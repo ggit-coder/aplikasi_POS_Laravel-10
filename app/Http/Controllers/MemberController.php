@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Models\Member;
 use App\Models\Setting;
 use Illuminate\Http\Request;
-// use App\Models\Produk;
 use Barryvdh\DomPDF\Facade\Pdf;
 
 class MemberController extends Controller

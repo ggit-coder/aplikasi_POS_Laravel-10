@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-// use DataTables;
 use Illuminate\Http\Request;
 use App\Models\Kategori;
 
